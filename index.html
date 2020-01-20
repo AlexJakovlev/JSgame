@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <section id="area_game">
+
+    </section>
+    <section id="setings">
+        <div>Вашему внимаю предлагается игра на</br> развитеи памяти и логического мышления<p>ПОРОЛОЖИ ДОРОГУ</p>
+        </div>
+        <section id="stat">
+        <div id="spiels">Сыграно Игр: <span>0</span>
+        </div>
+        <div id='win'>Побед: <span>0</span></div>
+    </section>
+        <div id="form">
+            <select  id="default">
+                <option value="false">-- не выбранно --</option>
+                <option value="3">Уровень 1 </option>
+                <option value="4">Уровень 2 </option>
+                <option value="5">Уровень 3</option>
+                <option value="6">Уровень 4</option>
+            </select>
+            <div>кол-во клеток по горизонтали: <input  type="text" id="sizeX"></div>
+            <div>кол-во клеток по вертикали: <input  type="text" id="sizeY"></div>
+            <div>кол-во ходов :<input type="text" id="countstep"></div>
+            <button id="submit" type='text'>Играть</button>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+
+</html>
